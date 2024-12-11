@@ -24,6 +24,10 @@ Subnet Mask: 255.255.0.0<br>
 IP: 168.90.0.5<br>
 Subnet Mask: 255.255.0.0<br>
 
+- PC3 - PC-PT<br>
+IP: 168.90.0.5<br>
+Subnet Mask: 255.255.0.0<br>
+
 - Laptop0 - Laptop-PT<br>
 IP: 168.90.0.2<br>
 Subnet Mask 255.255.0.0<br>
@@ -35,6 +39,10 @@ Subnet Mask: 255.255.0.0<br>
 4. Devices connected to second switch:<br>
 - PC2 - PC-PT<br>
 IP: 210.3.14.4<br>
+Subnet Mask: 255.255.255.0<br>
+
+- PC4 - PC-PT<br>
+IP: 210.3.14.5<br>
 Subnet Mask: 255.255.255.0<br>
 
 - Server1 - Server-PT<br>
