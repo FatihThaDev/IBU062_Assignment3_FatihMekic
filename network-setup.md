@@ -53,3 +53,14 @@ Subnet Mask: 255.255.255.0<br>
 IP: 210.3.14.3<br>
 Subnet Mask: 255.255.255.0<br>
 <br>
+
+## DHCP setup:
+To set up DHCP, I used the following commands on the router's CLI:<br>
+Router> enable
+Router# Configure terminal   
+Router(config)# interface GigabitEthernet0/0/0<br>
+Router(config-if)# ip address 168.90.0.1 255.255.0.0<br>
+Router(config-if)# no shutdown<br>
+Router(config)# interface GigabitEthernet0/0/1<br>
+Router(config-if)# ip address 210.3.14.1 255.255.255.0<br>
+Router(config-if)# no shutdown<br>
